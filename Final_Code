@@ -567,7 +567,7 @@ void sendSensorReadingToPhone() {
 
     //Debug
     Serial.print(F(",\t"));
-    Serial.print(sensorDHT.humidity, 1); //formataçao para uma casa decimal
+    Serial.print(sensorDHT.humidity, 1);
     Serial.print(F(",\t"));
     Serial.println(sensorDHT.temperature, 1);
   
